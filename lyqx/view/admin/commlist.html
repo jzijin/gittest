@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="page-header">
+            <h1>后台管理界面</h1>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h4>栏目管理</h4>
+                        <ul>
+                            <li>
+                                <a href="">栏目列表</a>
+                            </li>
+                            <li>
+                                <a href="">添加栏目</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h4>文章管理</h4>
+                        <ul>
+                            <li>
+                                <a href="">文章列表</a>
+                            </li>
+                            <li>
+                                <a href="">发布文章</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h4>个人中心</h4>
+                        <ul>
+                            <li>
+                                <a href="">修改密码</a>
+                            </li>
+                            <li>
+                                <a href="">退出登陆</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>日期</th>
+                            <th>nick</th>
+                            <th>email</th>
+                            <th>content</th>
+                            <th>ip</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach($comms as $v) {?>
+                        <tr>
+                            <td><?= $v['comment_id'];?></td>
+                            <td><?= date('Y/m/d H:i',$v['pubtime']);?></td>
+                            <td><?= $v['nick'];?></td>
+                            <td><?= $v['email'];?></td>
+                            <td><?= $v['content'];?></td>
+                            <td><?= long2ip($v['ip']);?></td>
+                            <td><?= $v['email'];?></td>                  
+                            <td><a href="commdel.php?comment_id=<?= $v['comment_id']?>">删除</a></td>
+                        </tr>
+                        <?php }?>
+                    </tbody>
+                </table>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</body>
+</html>

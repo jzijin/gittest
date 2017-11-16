@@ -1,0 +1,260 @@
+<form action="yanzheng.php" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label for="name" class="col-sm-3 control-label">姓名</label>
+        <div class="col-sm-9">
+            <input type="text" name="name" class="form-control" id="name" placeholder="input name">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="phone" class="col-sm-3 control-label">电话</label>
+        <div class="col-sm-9">
+            <input type="text" name="phone" class="form-control" id="phone" placeholder="input phone">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="qq" class="col-sm-3 control-label">QQ</label>
+        <div class="col-sm-9">
+            <input type="text" name="qq" class="form-control" id="qq" placeholder="input qq">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="tsg">南京图书馆
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="xyt">乐园志愿
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="mlg">美龄宫志愿
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="time" class="col-sm-3 control-label">时间</label>
+        <div class="col-sm-9">
+            <select name="time" id="time" class="form-control">
+                <option value="第9周">第9周</option>
+                <option value="第10周">第10周</option>
+                <option value="第11周">第11周</option>
+                <option value="第12周">第12周</option>
+                <option value="第13周">第13周</option>
+                <option value="第14周">第14周</option>
+                <option value="第15周">第15周</option>
+                <option value="第16周">第16周</option>
+                <option value="第17周">第17周</option>
+                <option value="第18周">第18周</option>
+                <option value="第19周">第19周</option>
+                <option value="第20周">第20周</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-7 control-label">志愿时间是否服从调剂</label>
+        <div class="col-sm-5">
+            <label class="radio-inline">
+                <input type="radio" name="adjusttime" id="inlineRadio1" value="是" checked> 是
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="adjusttime" id="inlineRadio1" value="否"> 否
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-7 control-label">志愿项目是否服从调剂</label>
+        <div class="col-sm-5">
+            <label class="radio-inline">
+                <input type="radio" name="adjustevent" id="inlineRadio1" value="是" checked> 是
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="adjustevent" id="inlineRadio1" value="否"> 否
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-5 col-sm-7">
+            <input type="submit" value="提交" class="btn btn-primary">
+        </div>
+    </div>
+</form>
+
+
+
+
+
+<article>
+    <h2><a href="#">午后的街头</a></h2>
+    <div class="entry_header">
+        <time>2015/7月/日</time>
+        by
+        <a href="#">十八</a>
+        <a class="catlink" href="#">闲谈随笔</a>
+        <a class="comment" href="#">8条评论</a>
+    </div>
+    <div class="entry_content">
+        <p>有时突然想说我爱你，<br>
+            有时突然慌张忧伤。</p>
+            <p>
+                像迷路的孩子，<br>
+                东张西望。
+        </p>
+        <p>
+            伸出双手想抓住，时光像泥鳅一样。
+        </p>
+    </div>
+</article>
+<div id="comments">
+    <ol>
+        <li>
+            <img src="https://secure.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?s=50&d=identicon&r=pg" alt="">
+            <cite><a href="#">钻石王老五</a></cite> <br>
+            <time>2015年8月4日 20时31分</time>
+        </li>
+        <li>
+            十八哥的文章写的好啊
+        </li>
+    </ol>
+    <ol>
+        <li>
+            <img src="https://secure.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?s=50&d=identicon&r=pg" alt="">
+            <cite><a href="#">钻石王老五</a></cite> <br>
+            <time>2015年8月4日 20时31分</time>
+        </li>
+        <li>
+            十八哥的文章写的好啊
+        </li>
+    </ol>
+    <ol>
+        <li>
+            <img src="https://secure.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?s=50&d=identicon&r=pg" alt="">
+            <cite><a href="#">钻石王老五</a></cite> <br>
+            <time>2015年8月4日 20时31分</time>
+        </li>
+        <li>
+            十八哥的文章写的好啊
+        </li>
+    </ol>
+</div>
+<div id="respond" class="comment-respond">
+    <h3>Leave a Comment</h3>
+    <form action="#" method="post">
+        <p>
+            <input placeholder="your name" name="username" type="text" value="" size="30">
+        </p>
+        <p>
+            <input placeholder="Email" name="email" type="text" value="" size="30">
+        </p>
+        <p>
+            <textarea name="comment" cols="45" rows="8" aria-required="true"></textarea>
+            <p>
+                <input type="submit" value="Post Comment">
+            </p>
+        </form>
+    </div>
+
+
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/adm.css">
+    </head>
+    <body>
+        <header>
+            <h1>Blog后台管理界面</h1>
+        </header>
+        <div id="main">
+            <div id="lside">
+                <aside>
+                    <h4>栏目管理</h4>
+                    <ul>
+                        <li><a href="">栏目列表</a></li>
+                        <li><a href="">添加栏目</a></li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>文章管理</h4>
+                    <ul>
+                        <li><a href="">文章列表</a></li>
+                        <li><a href="">发布文章</a></li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h4>个人中心</h4>
+                    <ul>
+                        <li><a href="">修改密码</a></li>
+                        <li><a href="">退出登陆</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div id="rside">
+                <table>
+                    <tr>
+                        <td>序号</td>
+                        <td>日期</td>
+                        <td>标题</td>
+                        <td>分类</td>
+                        <td>回复</td>
+                        <td>状态</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2013/12/03</td>
+                        <td><a href="#">这是2013年的第一场雪</a></td>
+                        <td>心情随笔</td>
+                        <td><span class="badge">12</span></td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2013/12/03</td>
+                        <td><a href="#">这是2013年的第一场雪</a></td>
+                        <td>心情随笔</td>
+                        <td><span class="badge">15</span></td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2013/12/03</td>
+                        <td><a href="#">这是2013年的第一场雪</a></td>
+                        <td>心情随笔</td>
+                        <td><span class="badge">9</span></td>
+                        <td>已发布</td>
+                    </tr>
+                </table>
+                <div id="pagebar">
+                    Pages:&nbsp;
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    4
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Copyright &copy; 2015 · GeneratePress · WordPress
+        </footer>
+    </body>
+    </html>

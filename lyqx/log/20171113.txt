@@ -1,0 +1,443 @@
+----------------------------
+2017/11/13 13:28:52
+select 1 from cat where catname='test3'
+
+----------------------------
+2017/11/13 13:28:56
+select 1 from cat where catname='test4'
+
+----------------------------
+2017/11/13 13:28:56
+insert into cat (catname) values ('test4')
+
+----------------------------
+2017/11/13 13:29:28
+select 1 from cat where catname='test5'
+
+----------------------------
+2017/11/13 13:29:28
+insert' into cat (catname) values ('test5')
+
+
+----------------------------
+2017/11/13 13:31:35
+select 1 from cat where catname='test6'
+
+----------------------------
+2017/11/13 13:31:35
+insert' into cat (catname) values ('test6')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' into cat (catname) values ('test6')' at line 1
+
+----------------------------
+2017/11/13 13:32:12
+select 1 from cat where catname='test6'
+
+----------------------------
+2017/11/13 13:32:12
+insert' into cat (catname) values ('test6')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' into cat (catname) values ('test6')' at line 1
+
+----------------------------
+2017/11/13 13:36:31
+select 1 from cat where catname='test6'
+
+----------------------------
+2017/11/13 13:36:31
+insert into cat (catname) values ('test6')
+
+----------------------------
+2017/11/13 13:37:18
+select 1 from cat where catname='test6'
+
+----------------------------
+2017/11/13 13:37:22
+select 1 from cat where catname='test7'
+
+----------------------------
+2017/11/13 13:37:22
+insert into cat (catname) values ('test7')
+
+----------------------------
+2017/11/13 13:38:06
+select 1 from cat where catname='test7'
+
+----------------------------
+2017/11/13 13:38:56
+select 1 from cat where catname='test'
+
+----------------------------
+2017/11/13 13:39:05
+select 1 from cat where catname='test'
+
+----------------------------
+2017/11/13 13:39:11
+select 1 from cat where catname='test'
+
+----------------------------
+2017/11/13 13:39:30
+select 1 from cat where catname='test'
+
+----------------------------
+2017/11/13 13:40:13
+select 1 from cat where catname='test'
+
+----------------------------
+2017/11/13 13:40:29
+select 1 from cat where catname='test10'
+
+----------------------------
+2017/11/13 13:40:33
+select 1 from cat where catname='test100'
+
+----------------------------
+2017/11/13 13:40:33
+insert into cat (catname) values ('test100')
+
+----------------------------
+2017/11/13 22:55:18
+select 1 from cat where catname='test11'
+
+----------------------------
+2017/11/13 22:55:18
+insert into cat (catname) values ('test11')
+
+----------------------------
+2017/11/13 22:56:13
+select *from cat
+
+----------------------------
+2017/11/13 22:56:44
+select *from cat
+
+----------------------------
+2017/11/13 22:56:45
+select *from cat
+
+----------------------------
+2017/11/13 22:56:46
+select *from cat
+
+----------------------------
+2017/11/13 22:57:23
+select *from cat
+
+----------------------------
+2017/11/13 22:57:42
+select *from cat
+
+----------------------------
+2017/11/13 22:57:44
+select 1 from art where cat_id=5
+
+----------------------------
+2017/11/13 22:57:44
+delete from cat where cat_id = 5
+
+----------------------------
+2017/11/13 22:57:48
+select *from cat
+
+----------------------------
+2017/11/13 22:57:50
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:25
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:26
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:26
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:26
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:27
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:27
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:27
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:27
+select *from cat where cat_id=4
+
+----------------------------
+2017/11/13 22:58:30
+select *from cat where cat_id=10
+
+----------------------------
+2017/11/13 22:58:48
+select *from cat where cat_id=10
+
+----------------------------
+2017/11/13 22:58:53
+select *from cat where cat_id=12
+
+----------------------------
+2017/11/13 22:58:56
+select *from cat where cat_id=13
+
+----------------------------
+2017/11/13 22:59:00
+select 1 from cat where catname='test1155'
+
+----------------------------
+2017/11/13 22:59:00
+update cat set catname='test1155' where cat_id=13
+
+----------------------------
+2017/11/13 22:59:02
+select *from cat where cat_id=13
+
+----------------------------
+2017/11/13 22:59:20
+select *from cat
+
+----------------------------
+2017/11/13 22:59:22
+select *from cat where cat_id=12
+
+----------------------------
+2017/11/13 22:59:24
+select *from cat where cat_id=12
+
+----------------------------
+2017/11/13 22:59:51
+select *from cat where cat_id=12
+
+----------------------------
+2017/11/13 23:00:06
+select *from cat where cat_id=12
+
+----------------------------
+2017/11/13 23:00:10
+select 1 from cat where catname='test1001'
+
+----------------------------
+2017/11/13 23:00:10
+update cat set catname='test1001' where cat_id=12
+
+----------------------------
+2017/11/13 23:00:11
+select *from cat where cat_id=12
+
+----------------------------
+2017/11/13 23:00:13
+select *from cat
+
+----------------------------
+2017/11/13 23:00:14
+select *from cat
+
+----------------------------
+2017/11/13 23:00:15
+select *from cat
+
+----------------------------
+2017/11/13 23:03:51
+select *from cat
+
+----------------------------
+2017/11/13 23:03:51
+select *from cat
+
+----------------------------
+2017/11/13 23:03:52
+select *from cat
+
+----------------------------
+2017/11/13 23:03:52
+select *from cat
+
+----------------------------
+2017/11/13 23:03:52
+select *from cat
+
+----------------------------
+2017/11/13 23:03:52
+select *from cat
+
+----------------------------
+2017/11/13 23:03:52
+select *from cat
+
+----------------------------
+2017/11/13 23:03:53
+select *from cat
+
+----------------------------
+2017/11/13 23:03:53
+select *from cat
+
+----------------------------
+2017/11/13 23:03:53
+select *from cat
+
+----------------------------
+2017/11/13 23:03:53
+select *from cat
+
+----------------------------
+2017/11/13 23:03:53
+select *from cat
+
+----------------------------
+2017/11/13 23:03:53
+select *from cat
+
+----------------------------
+2017/11/13 23:03:54
+select *from cat
+
+----------------------------
+2017/11/13 23:03:54
+select *from cat
+
+----------------------------
+2017/11/13 23:03:54
+select *from cat
+
+----------------------------
+2017/11/13 23:03:54
+select *from cat
+
+----------------------------
+2017/11/13 23:03:54
+select *from cat
+
+----------------------------
+2017/11/13 23:03:54
+select *from cat
+
+----------------------------
+2017/11/13 23:03:55
+select *from cat
+
+----------------------------
+2017/11/13 23:03:55
+select *from cat
+
+----------------------------
+2017/11/13 23:03:55
+select *from cat
+
+----------------------------
+2017/11/13 23:03:56
+select *from cat
+
+----------------------------
+2017/11/13 23:03:57
+select *from cat
+
+----------------------------
+2017/11/13 23:03:57
+select *from cat
+
+----------------------------
+2017/11/13 23:03:58
+select *from cat
+
+----------------------------
+2017/11/13 23:03:58
+select *from cat
+
+----------------------------
+2017/11/13 23:03:58
+select *from cat
+
+----------------------------
+2017/11/13 23:03:59
+select *from cat
+
+----------------------------
+2017/11/13 23:03:59
+select *from cat
+
+----------------------------
+2017/11/13 23:03:59
+select *from cat
+
+----------------------------
+2017/11/13 23:03:59
+select *from cat
+
+----------------------------
+2017/11/13 23:04:00
+select *from cat
+
+----------------------------
+2017/11/13 23:04:00
+select *from cat
+
+----------------------------
+2017/11/13 23:16:47
+select catname from cat
+
+----------------------------
+2017/11/13 23:17:27
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:17:27
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:17:27
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:17:27
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:17:27
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:18:01
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:01
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:03
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:03
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:25
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:38
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:43
+select catname,cat_id from cat
+
+----------------------------
+2017/11/13 23:20:53
+insert into art (title,cat_id,content,pubtime) values ('宋丹','4','女神','1510586453')
+
+----------------------------
+2017/11/13 23:20:55
+select catname,cat_id from cat
+
